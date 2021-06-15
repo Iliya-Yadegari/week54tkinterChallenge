@@ -16,6 +16,7 @@ def shortName():
 window = Tk()
 main_frm = LabelFrame()
 window.title('Short name')
+window.iconbitmap('name.ico')
 
 firstName_lbl = Label(window,text = 'First Name:').grid(row = 0, column = 0, padx = 10, pady = 10)
 firstName_ent = Entry(window)
